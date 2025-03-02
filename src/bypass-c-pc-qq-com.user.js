@@ -5,8 +5,8 @@
 // @author       Luke Zhang
 // @license      GPL-3.0-or-later
 // @homepage     https://github.com/win-lukezhang/cpcqqcombypass
-// @updateURL    https://github.com/win-lukezhang/cpcqqcombypass/raw/refs/heads/main/cpcqqcombypass.js
-// @downloadURL  https://github.com/win-lukezhang/cpcqqcombypass/raw/refs/heads/main/cpcqqcombypass.user.js
+// @updateURL    https://github.com/win-lukezhang/cpcqqcombypass/raw/refs/heads/main/src/bypass-c-pc-qq-com.user.js
+// @downloadURL  https://github.com/win-lukezhang/cpcqqcombypass/raw/refs/heads/main/src/bypass-c-pc-qq-com.user.js
 // @match        *://c.pc.qq.com/*
 // @match        *://c.pc.qq.com/ios.html*
 // @match        *://c.pc.qq.com/android.html*

@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         绕过 QQ 已停止访问
+// @namespace    cpcqqcombypass
 // @version      1.0
 // @description  自动跳过QQ中间页面直接访问原始链接
 // @author       Luke Zhang

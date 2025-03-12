@@ -1,17 +1,18 @@
 // ==UserScript==
 // @name         绕过 QQ 已停止访问
 // @namespace    cpcqqcombypass
-// @version      1.0
+// @version      1.1
 // @description  自动跳过QQ中间页面直接访问原始链接
 // @author       Luke Zhang
 // @license      GPL-3.0-or-later
-// @homepage     https://github.com/win-lukezhang/cpcqqcombypass
-// @updateURL    https://github.com/win-lukezhang/cpcqqcombypass/raw/refs/heads/main/src/bypass-c-pc-qq-com.user.js
-// @downloadURL  https://github.com/win-lukezhang/cpcqqcombypass/raw/refs/heads/main/src/bypass-c-pc-qq-com.user.js
+// @homepage     https://github.com/NT-AUTHORITY/cpcqqcombypass
+// @updateURL    https://github.com/NT-AUTHORITY/cpcqqcombypass/raw/refs/heads/main/src/bypass-c-pc-qq-com.user.js
+// @downloadURL  https://github.com/NT-AUTHORITY/cpcqqcombypass/raw/refs/heads/main/src/bypass-c-pc-qq-com.user.js
 // @match        *://c.pc.qq.com/*
 // @match        *://c.pc.qq.com/ios.html*
 // @match        *://c.pc.qq.com/android.html*
 // @match        *://c.pc.qq.com/pc.html*
+// @match        *://c.pc.qq.com/middlem.html*
 // @icon         https://www.qq.com/favicon.ico
 // @grant        none
 // ==/UserScript==

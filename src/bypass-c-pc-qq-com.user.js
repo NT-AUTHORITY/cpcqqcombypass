@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         绕过 QQ 已停止访问
 // @namespace    cpcqqcombypass
-// @version      1.2
+// @version      1.3
 // @description  自动跳过QQ中间页面直接访问原始链接
 // @author       Luke Zhang
 // @license      GPL-3.0-or-later
@@ -38,12 +38,14 @@
         }
 
         const pfTargetURL = getQueryParam('pfurl');
+            // 解码可能被编码的URL
         if (pfTargetURL) {
-            // 解码
-            const decodedPfURL = decodeURLComponent(pfTargetURL);
-            // 跳转
-            window.location.replace(decodedPfURL);
+            const decodedUrl = decodeURIComponent(pfTargetURL);
+            // 立即跳转（使用replace避免历史记录）
+            window.location.replace(decodedUrl);
         }
+
+
     }
 
     // 执行处理
